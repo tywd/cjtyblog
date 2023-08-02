@@ -3,8 +3,8 @@
 # https://vitepress.qzxdp.cn/reference/default-theme-home-page.html
 layout: home
 
-title: VitePress
-titleTemplate: Vite & Vue powered static site generator
+title: ty
+titleTemplate: tyblog
 
 hero:
   name: "滚筒洗衣机的blog"

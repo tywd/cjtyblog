@@ -12,7 +12,7 @@ export default defineConfig({
   lang: 'en-US',
   // 渲染为： <html lang="en-US">
   title: '滚筒洗衣机', // 网站标题
-  titleTemplate: 'Blog', // 网站标题后缀- “VitePress | Blog” 当 titleTemplate 的内容与 title 的内容相同时，不出现后缀;
+  titleTemplate: 'tyBlog', // 网站标题后缀- “VitePress | Blog” 当 titleTemplate 的内容与 title 的内容相同时，不出现后缀;
   description: 'Vite & Vue powered static site generator.', // 网站描述 
   // 渲染为：<meta name="description" content="Vite & Vue powered static site generator.">
   base: '/', // base url  // 当网站部署在 GitHub Pages 或 Gitee Pages 时会存在子路径，例如：https://username.github.io/repo/ ，需要设置 base 为 /repo/;
