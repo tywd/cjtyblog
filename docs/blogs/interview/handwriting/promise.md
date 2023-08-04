@@ -75,6 +75,7 @@ console.log('3.-----------------p')
 ```
 <!-- ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fd22101535684b8b8ee2a6c9a5dd5e83~tplv-k3u1fbpfcp-watermark.image?) -->
 <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fd22101535684b8b8ee2a6c9a5dd5e83~tplv-k3u1fbpfcp-watermark.image?" data-fancybox="gallery" />
+
 **结论**：上面测试说明第4的输出应该是后于第3的，所以可以认为`then`**里面的方法应该是异步的**
 ### 2.异步执行问题
 #### a.then里的方法是异步执行的

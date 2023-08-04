@@ -1,7 +1,10 @@
 # 手写-防抖与节流
-![4e56aed8047b18489beb757ccf626813.jpg](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/401450812d6044e6b3999a76c38d098d~tplv-k3u1fbpfcp-watermark.image)
-## 前言
+![4e56aed8047b18489beb757ccf626813.jpg]('../../../public/naruto-shasigei.jpg')
+<img src="../../../public/naruto-shasigei.jpg" width="100%" data-fancybox="gallery" />
+
+:::tip 前言
 函数防抖与节流在许多大厂(比如阿里、字节)面试题中经常有出现，跟随大厂的脚步，在此做一个记录学习备用
+:::
 ## 正文
 ### 防抖(debounce)
 字面意思，防止抖动嘛~ 不要让ta随意乱抖，太夸张的动作，物极必反，影响性能。
