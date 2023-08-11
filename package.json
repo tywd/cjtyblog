@@ -1,7 +1,4 @@
 {
-  "devDependencies": {
-    "vitepress": "1.0.0-beta.7"
-  },
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
@@ -14,5 +11,18 @@
     "docs:dev": "vitepress dev docs --port=9999",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "algolia": "^0.0.0",
+    "attrs": "^1.1.0",
+    "echarts": "^5.4.3",
+    "vite": "^4.4.8",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7",
+    "sass": "^1.57.1",
+    "vitepress": "1.0.0-beta.7"
   }
 }

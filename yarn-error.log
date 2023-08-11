@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Enterprise Vault\EVClient\x64\;D:\software\TortoiseSVN\bin;D:\Users\shichuyu1\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\software\Git\cmd;D:\software\nginx-1.22.1;C:\Users\shichuyu1\AppData\Local\Microsoft\WindowsApps;D:\software\Microsoft VS Code\bin;D:\Users\shichuyu1\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\code\personal\tyblog-vitepress\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "pnpm": {
+      "peerDependencyRules": {
+        "ignoreMissing": [
+          "@algolia/client-search",
+          "search-insights"
+        ]
+      }
+    },
+    "scripts": {
+      "docs:dev": "vitepress dev docs --port=9999",
+      "docs:build": "vitepress build docs",
+      "docs:preview": "vitepress preview docs"
+    },
+    "dependencies": {
+      "algolia": "^0.0.0",
+      "attrs": "^1.1.0",
+      "echarts": "^5.4.3",
+      "vite": "^4.4.8",
+      "vue": "^3.2.45"
+    },
+    "devDependencies": {
+      "fs-extra": "^11.1.1",
+      "path": "^0.12.7",
+      "sass": "^1.57.1",
+      "vitepress": "1.0.0-beta.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

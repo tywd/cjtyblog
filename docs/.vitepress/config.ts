@@ -105,6 +105,7 @@ export default defineConfig({
               items: [
                 { text: '好文收藏', link: baseOther + '/other1' },
                 { text: 'git操作记录', link: baseOther + '/git' },
+                { text: 'test', link: baseOther + '/test' },
               ]
             },
             // { text: '项目实战', link: '/blogs/project' }
